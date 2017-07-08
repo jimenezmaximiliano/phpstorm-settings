@@ -1,0 +1,18 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6b2c4f48-3c97-457a-a2f3-f87966d7ec73" name="editr" url="http://editr.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="0385f2ad-0f6f-48f0-9c41-e2c13b7af1ca" name="image" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="0844380f-2bfc-4a4d-a2bd-dcf232d2496f" name="sga.dev" url="http://sga.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="fb2d7034-fcec-4dce-b033-5f6f34800b7e" name="dh" url="http://dh.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
