@@ -13,6 +13,9 @@
       <webServer id="fb2d7034-fcec-4dce-b033-5f6f34800b7e" name="dh" url="http://dh.dev">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="1a97dbf5-b93e-43b2-913e-a29ca2bfe883" name="local.api" url="http://local.api">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
