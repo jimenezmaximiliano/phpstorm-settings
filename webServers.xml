@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="0964ff20-7f84-4a3d-a769-89284a8095a1" name="local.boldtravel" url="http://local.boldtravel">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
-    </option>
-  </component>
-</application>
