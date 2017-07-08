@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="42f3db5c-936d-4012-af06-65f6ba8add9d" name="local.maximiliano" url="http://local.maximiliano">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
-    </option>
-  </component>
-</application>
