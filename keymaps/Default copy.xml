@@ -1,7 +1,4 @@
 <keymap version="1" name="Default copy" parent="Default for XWin">
-  <action id="ActivateDatabaseToolWindow">
-    <keyboard-shortcut first-keystroke="alt 4" />
-  </action>
   <action id="ActivateDockerToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
@@ -10,7 +7,9 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
-  <action id="ChooseRunConfiguration" />
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl divide" />
