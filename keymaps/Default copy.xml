@@ -5,4 +5,8 @@
   </action>
   <action id="DuplicatesForm.SendToRight" />
   <action id="FileChooser.GotoProject" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="GotoSuperMethod" />
 </keymap>
