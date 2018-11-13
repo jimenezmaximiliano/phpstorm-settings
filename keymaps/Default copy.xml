@@ -1,5 +1,10 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateTODOToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
@@ -9,4 +14,7 @@
     <keyboard-shortcut first-keystroke="meta u" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="Jdbc.OpenConsole.New">
+    <keyboard-shortcut first-keystroke="meta 6" />
+  </action>
 </keymap>
