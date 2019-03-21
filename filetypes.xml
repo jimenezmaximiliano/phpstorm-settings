@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="getFirstOptionValue" type="JavaScript" />
       <mapping pattern="cleanup_query_batch_1" type="SQL" />
     </extensionMap>
   </component>
