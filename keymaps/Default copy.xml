@@ -9,6 +9,9 @@
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="DuplicatesForm.SendToRight" />
+  <action id="ExportSettings">
+    <keyboard-shortcut first-keystroke="ctrl meta alt e" />
+  </action>
   <action id="FileChooser.GotoProject" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="meta u" />
