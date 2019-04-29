@@ -20,4 +20,8 @@
   <action id="Jdbc.OpenConsole.New">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="ctrl meta o" />
+  </action>
 </keymap>
