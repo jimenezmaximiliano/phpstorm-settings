@@ -4,6 +4,22 @@
       <webServer id="9c1cbf40-a863-4c08-a4fe-d71ad1460132" name="Figured App" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="4f8d93cb-47de-484d-a9e7-6914bf4e2fe1" name="faccio" url="http://faccio.ferozo.com">
+        <fileTransfer host="faccio.ferozo.com" port="21" rootFolder="/public_html/">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="02e19d29-3702-477f-9dac-398b5263e8e5" name="faccio2" url="http://facciotours.tur.ar">
+        <fileTransfer host="faccio.ferozo.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
