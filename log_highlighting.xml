@@ -2,9 +2,8 @@
   <component name="LogHighlightingSettings">
     <highlightingPatterns>
       <LogHighlightingPattern pattern="^*ERROR*$" action="HIGHLIGHT_LINE" fg="-65536" bold="true" stripe="true" />
-      <LogHighlightingPattern pattern="^[^.]+\.(WARNING):" action="HIGHLIGHT_LINE" fg="-22016" bold="true" />
       <LogHighlightingPattern pattern="^\s*i(nfo)?\s*$" action="HIGHLIGHT_LINE" fg="-12599489" />
-      <LogHighlightingPattern pattern="^[^.]+\.(ERROR):" stripe="true" />
+      <LogHighlightingPattern pattern="^*WARNING*$" action="HIGHLIGHT_LINE" fg="-15872" stripe="true" />
     </highlightingPatterns>
     <parsingPatterns>
       <LogParsingPattern enabled="false" name="Pipe-separated" pattern="^(?s)([^|]*)\|([^|]*)\|([^|]*)\|(.*)$" timePattern="HH:mm:ss.SSS" linePattern="^\d" timeId="0" severityId="1" categoryId="2" />
