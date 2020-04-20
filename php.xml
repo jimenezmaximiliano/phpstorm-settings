@@ -1,23 +1,17 @@
 <application>
-  <component name="MessDetector">
-    <phpmd_settings_migrated />
-  </component>
-  <component name="PhpCodeSniffer">
-    <phpcs_settings_migrated />
-  </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="8532c6e2-10c2-4df0-a342-a61e49f68b72" name="PHP 7.1" home="/usr/local/Cellar/php@7.1/7.1.32/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="8532c6e2-10c2-4df0-a342-a61e49f68b72" name="PHP 7.2" home="/usr/local/opt/php@7.2/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.1">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php@7.1/7.1.32/bin/php-cgi" php_cli="/usr/local/Cellar/php@7.1/7.1.32/bin/php" path_separator=":" version="7.1.32">
-          <additional_php_ini>/usr/local/etc/php/7.1/conf.d/ext-opcache.ini</additional_php_ini>
-          <configuration_file>/usr/local/etc/php/7.1/php.ini</configuration_file>
+      <interpreter name="PHP 7.2">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php@7.2/7.2.27/bin/php-cgi" php_cli="/usr/local/Cellar/php@7.2/7.2.27/bin/php" path_separator=":" version="7.2.27">
+          <additional_php_ini>/usr/local/etc/php/7.2/conf.d/ext-opcache.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/7.2/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php@7.1/7.1.32/share/php@7.1/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php@7.2/7.2.27/share/php@7.2/pear" />
           </configuration_options>
           <debuggers />
           <loaded_extensions>
@@ -51,7 +45,6 @@
             <extension name="ldap" />
             <extension name="libxml" />
             <extension name="mbstring" />
-            <extension name="mcrypt" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="odbc" />
@@ -71,6 +64,7 @@
             <extension name="shmop" />
             <extension name="soap" />
             <extension name="sockets" />
+            <extension name="sodium" />
             <extension name="sqlite3" />
             <extension name="standard" />
             <extension name="sysvmsg" />
