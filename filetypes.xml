@@ -6,6 +6,7 @@
       <mapping pattern="InvoiceLineMatchDto" type="PLAIN_TEXT" />
       <mapping pattern="env" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="sqlite3" type="PLAIN_TEXT" />
       <mapping pattern="cleanup_query_batch_1" type="SQL" />
       <removed_mapping pattern="InboxList.js" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
